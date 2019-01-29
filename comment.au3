@@ -1,6 +1,13 @@
+; This is an AUTO-IT script
+; This scripts posts some lame comments on Facebook when your browser window becomes active
+; it tries to randomize the comment and timeouts between posts to not get banned
+; you may have to change stuff to get it to work right for you such as the mouse position
+;
+; The FB post should be the main focus on your browser window
+;
 #include <MsgBoxConstants.au3>
 #include <AutoItConstants.au3>
-WinWaitActive("Dominica Nieto - Google Chrome")
+WinWaitActive("Facebook - Google Chrome")
 Local $i = 0
 while $i <= 400
 ;	MsgBox($MB_SYSTEMMODAL,"Message Counter","Current: " & $i,10)
